@@ -1,3 +1,7 @@
+#This is a fork of [vue-style-loader](https://github.com/vuejs/vue-style-loader)
+
+It adds an data-vuest-id attribute to \<style\> tags, to provide an information about .vue files containing them for [vuest-plugin](https://www.npmjs.com/package/vuest-plugin).
+
 # vue-style-loader [![Build Status](https://circleci.com/gh/vuejs/vue-style-loader/tree/master.svg?style=shield)](https://circleci.com/gh/vuejs/vue-loader/tree/master) [![npm package](https://img.shields.io/npm/v/vue-style-loader.svg)](https://www.npmjs.com/package/vue-style-loader)
 
 This is a fork based on [style-loader](https://github.com/webpack/style-loader). Similar to `style-loader`, you can chain it after `css-loader` to dynamically inject CSS into the document as style tags. However, since this is included as a dependency and used by default in `vue-loader`, in most cases you don't need to configure this loader yourself.
