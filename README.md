@@ -1,4 +1,4 @@
-#This is a fork of [vue-style-loader](https://github.com/vuejs/vue-style-loader)
+# This is a fork of [vue-style-loader](https://github.com/vuejs/vue-style-loader)
 
 It adds an data-vuest-id attribute to \<style\> tags, to provide an information about .vue files containing them for [vuest-plugin](https://www.npmjs.com/package/vuest-plugin).
 
